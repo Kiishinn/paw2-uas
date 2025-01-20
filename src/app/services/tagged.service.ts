@@ -7,7 +7,7 @@ import { TaggedConfess } from '../models/tagged.model'; // Import model TaggedCo
   providedIn: 'root',
 })
 export class TaggedService {
-  private apiUrl = 'https://api-confess-production.up.railway.app'; // URL API untuk tagged confesses
+  private apiUrl = 'https://api-confess-production.up.railway.app/tagged'; // URL API untuk tagged confesses
 
   constructor(private http: HttpClient) {}
 
