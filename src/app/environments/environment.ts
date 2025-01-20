@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://http://localhost:4200/',
+  apiUrl: 'http://api-confess-production.up.railway.appapi-confess-production.up.railway.app',
 };
